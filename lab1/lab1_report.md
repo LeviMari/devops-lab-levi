@@ -23,7 +23,8 @@
 
 
 ### 3. Запуск веб-сервера
-Запущен контейнер с nginx (`docker run -d -p 8080:80 --name web-server nginx:alpine`). Страница проверена в браузере по адресу http://localhost:8080. Просмотрены логи контейнера (`docker logs web-server`), выполнено подключение к контейнеру (`docker exec -it web-server sh`). <img width="562" height="626" alt="5" src="https://github.com/user-attachments/assets/183679cc-7fb4-40a9-b5e7-67feda7b3d9c" />
+Запущен контейнер с nginx (`docker run -d -p 8080:80 --name web-server nginx:alpine`). Страница проверена в браузере по адресу http://localhost:8080. Просмотрены логи контейнера (`docker logs web-server`), выполнено подключение к контейнеру (`docker exec -it web-server sh`).<img width="1359" height="704" alt="3" src="https://github.com/user-attachments/assets/250ea46c-4c04-4975-94a4-5635a62f8312" />
+
 
 
 ### 4. Управление контейнерами
@@ -45,7 +46,8 @@
 - При первом запуске приложение падало с ошибкой `ImportError: cannot import name 'url_quote' from werkzeug.urls` — несовместимость версии Flask 2.0.1 с последней версией Werkzeug, установленной автоматически. Решение: зафиксирована совместимая версия `Werkzeug==2.0.3` в requirements.txt, после чего образ пересобран и приложение успешно запустилось.<img width="570" height="368" alt="2" src="https://github.com/user-attachments/assets/fbc5ba34-fd36-4441-8862-285a0648e7bc" />
 
 
-Работа проверена командой `curl http://localhost:5001`, получен ответ: "Hello from Docker!".<img width="568" height="373" alt="1" src="https://github.com/user-attachments/assets/35b176b8-2f78-4fb9-8280-ffe1a8ae2506" />
+Работа проверена командой `curl http://localhost:5001`, получен ответ: "Hello from Docker!".<img width="960" height="566" alt="7" src="https://github.com/user-attachments/assets/04f9e114-2e41-475f-bca8-05bb30d6679f" />
+
 
 
 ## Результат
