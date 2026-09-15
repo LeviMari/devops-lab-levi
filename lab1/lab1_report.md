@@ -18,7 +18,7 @@
 
 
 ### 2. Работа с готовыми образами
-Скачан образ `ubuntu:latest`, запущен интерактивный контейнер (`docker run -it ubuntu bash`), внутри установлен пакет curl (`apt update && apt install -y curl`), версия проверена командой `curl --version`. <img width="960" height="566" alt="7" src="https://github.com/user-attachments/assets/79e6f8f4-ba21-4c1d-9c08-013a2c1aac00" />
+Скачан образ `ubuntu:latest`, запущен интерактивный контейнер (`docker run -it ubuntu bash`), внутри установлен пакет curl (`apt update && apt install -y curl`), версия проверена командой `curl --version`. 
  <img width="579" height="651" alt="6" src="https://github.com/user-attachments/assets/9e7fe77a-c883-42c0-a689-18ff8cdde526" />
 
 
