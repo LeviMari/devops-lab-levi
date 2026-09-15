@@ -2,7 +2,7 @@
 
 Персональный сайт-визитка Марии Левиной, созданный с использованием MkDocs и темы Material.
 
-🔗 **Живой сайт:** https://levimari.github.io/devops-lab-levi/
+🔗 **Сайт:** https://levimari.github.io/devops-lab-levi/
 
 ## Структура проекта
 
