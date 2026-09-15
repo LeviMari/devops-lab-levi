@@ -1,0 +1,39 @@
+site_url: https://levimari.github.io/devops-lab-levi/
+site_name: Мария Левина
+site_description: Персональный сайт-визитка
+site_author: Мария Левина
+
+theme:
+  name: material
+  language: ru
+  logo: images/logo.jpg
+  favicon: images/logo.jpg
+  palette:
+    - scheme: default
+      primary: light green
+      accent: pink
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+copyright: Copyright &copy; 2026 Мария Левина
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: https://t.me/levimarii
+      name: Telegram
+    - icon: fontawesome/brands/linkedin
+      link: http://www.linkedin.com/in/maria-levin-9b5754243
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:thelevimariy@gmail.com
+      name: Email
